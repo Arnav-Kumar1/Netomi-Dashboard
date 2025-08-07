@@ -1,0 +1,448 @@
+raw_query,cleaned_query,topic,topic_label,topic_label_final
+allowed payment options,allowed payment options,2,Payment Options/Issues,Payment Options/Issues
+anybody available at customer service,anybody available at customer service,11,File Complaint/Claim/Review,Human Agent Request
+anybody available in customer service,anybody available in customer service,11,File Complaint/Claim/Review,Human Agent Request
+anyone available at customer service,anyone available at customer service,11,File Complaint/Claim/Review,Human Agent Request
+anyone available in customer service,anyone available in customer service,11,File Complaint/Claim/Review,Human Agent Request
+can i check at what time customer service available is?,can i check at what time customer service available is?,18,Delivery ETA,Human Agent Request
+can i check at what time i can contact customer service?,can i check at what time i can contact customer service?,18,Delivery ETA,Human Agent Request
+can i check what hours i can contact customer service?,can i check what hours i can contact customer service?,18,Delivery ETA,Human Agent Request
+can i check what payment methods you accept?,can i check what payment methods you accept?,2,Payment Options/Issues,Payment Options/Issues
+can i contact customer service?,can i contact customer service?,11,File Complaint/Claim/Review,Human Agent Request
+can i pay with amex?,can i pay with amex?,6,Order Cancellation,Order Cancellation
+can i pay with google pay?,can i pay with google pay?,2,Payment Options/Issues,Payment Options/Issues
+can uhelp me modify the address,can you help me modify the address,0,Change Shipping Address,Change Shipping Address
+can uhelp me see the withdrawal charges,can you help me see the withdrawal charges,6,Order Cancellation,Order Cancellation
+can ya help me checking what paymnent options are accepted,can you help me checking what payment options are accepted,2,Payment Options/Issues,Payment Options/Issues
+can ya tell me at what time i can call customer service,can you tell me at what time i can call customer service,18,Delivery ETA,Human Agent Request
+can you ehlp me speak with a person?,can you help me speak with a person?,14,Human Agent Request,Human Agent Request
+can you help me check what payment methods are available?,can you help me check what payment methods are available?,2,Payment Options/Issues,Payment Options/Issues
+can you help me check what payment methods you accept?,can you help me check what payment methods you accept?,2,Payment Options/Issues,Payment Options/Issues
+can you help me check your allowed payment methods?,can you help me check your allowed payment methods?,2,Payment Options/Issues,Payment Options/Issues
+can you help me checking what payment methods you accept?,can you help me checking what payment methods you accept?,2,Payment Options/Issues,Payment Options/Issues
+can you help me checking your allowed payment methods?,can you help me checking your allowed payment methods?,2,Payment Options/Issues,Payment Options/Issues
+can you help me contact customer service?,can you help me contact customer service?,11,File Complaint/Claim/Review,Human Agent Request
+can you help me correcting the personal data?,can you help me correcting the personal data?,12,Edit Account Details,Edit Account Details
+can you help me editing my personal information?,can you help me editing my personal information?,12,Edit Account Details,Edit Account Details
+can you help me getting my money back?,can you help me getting my money back?,4,Refund status/Requests & Policies,Refund status/Requests & Policies
+can you help me remove something?,can you help me remove something?,16,Modify Existing Order,Modify Existing Order
+can you help me removing something?,can you help me removing something?,16,Modify Existing Order,Modify Existing Order
+can you help me switching user?,can you help me switching user?,19,Account Creation / Switching,Account Creation / Switching
+can you help me to change the user information?,can you help me to change the user information?,12,Edit Account Details,Edit Account Details
+can you help me to check what payment methods are available?,can you help me to check what payment methods are available?,2,Payment Options/Issues,Payment Options/Issues
+can you help me to check what payment methods you accept?,can you help me to check what payment methods you accept?,2,Payment Options/Issues,Payment Options/Issues
+can you help me to check your allowed payment methods?,can you help me to check your allowed payment methods?,2,Payment Options/Issues,Payment Options/Issues
+can you help me to contact customer service?,can you help me to contact customer service?,11,File Complaint/Claim/Review,Human Agent Request
+can you help me to get my money back?,can you help me to get my money back?,4,Refund status/Requests & Policies,Refund status/Requests & Policies
+can you help me to remove something?,can you help me to remove something?,16,Modify Existing Order,Modify Existing Order
+can you help me updating the personal data?,can you help me updating the personal data?,12,Edit Account Details,Edit Account Details
+can you show me at what time customer service available is?,can you show me at what time customer service available is?,18,Delivery ETA,Human Agent Request
+can you show me what hours i can contact customer service?,can you show me what hours i can contact customer service?,18,Delivery ETA,Human Agent Request
+can you show me what payment methods are available?,can you show me what payment methods are available?,2,Payment Options/Issues,Payment Options/Issues
+can you show me what payment methods you accept?,can you show me what payment methods you accept?,2,Payment Options/Issues,Payment Options/Issues
+can you tell me at what time customer service available is?,can you tell me at what time customer service available is?,18,Delivery ETA,Human Agent Request
+can you tell me what hours i can contact customer service?,can you tell me what hours i can contact customer service?,18,Delivery ETA,Human Agent Request
+can you tell me what payment methods are available?,can you tell me what payment methods are available?,2,Payment Options/Issues,Payment Options/Issues
+can you tell me what payment methods you accept?,can you tell me what payment methods you accept?,2,Payment Options/Issues,Payment Options/Issues
+can you tell me what payment options are accepted?,can you tell me what payment options are accepted?,2,Payment Options/Issues,Payment Options/Issues
+can you tell me your allowed payment methods?,can you tell me your allowed payment methods?,2,Payment Options/Issues,Payment Options/Issues
+can you tell me your payment methods?,can you tell me your payment methods?,2,Payment Options/Issues,Payment Options/Issues
+ccan i check the available payment options,can i check the available payment options,2,Payment Options/Issues,Payment Options/Issues
+chat with operator,chat with operator,14,Human Agent Request,Human Agent Request
+check allowed payment methods,check allowed payment methods,2,Payment Options/Issues,Payment Options/Issues
+check at what time customer service available is,check at what time customer service available is,18,Delivery ETA,Human Agent Request
+check at what time i can contact customer service,check at what time i can contact customer service,18,Delivery ETA,Human Agent Request
+check ur damn payment methods,check your  payment methods,2,Payment Options/Issues,Payment Options/Issues
+check what hours i can contact customer service,check what hours i can contact customer service,18,Delivery ETA,Human Agent Request
+check what payment methods you accept,check what payment methods you accept,2,Payment Options/Issues,Payment Options/Issues
+check what payment options are allowed,check what payment options are allowed,2,Payment Options/Issues,Payment Options/Issues
+check your allowed payment methods,check your allowed payment methods,2,Payment Options/Issues,Payment Options/Issues
+checking allowed payment methods,checking allowed payment methods,2,Payment Options/Issues,Payment Options/Issues
+do you accept google pay?,do you accept google pay?,2,Payment Options/Issues,Payment Options/Issues
+do you have a mail to contact customer service?,do you have a mail to contact customer service?,11,File Complaint/Claim/Review,Human Agent Request
+do you have a number to contact customer service?,do you have a number to contact customer service?,11,File Complaint/Claim/Review,Human Agent Request
+editing personal information,editing personal information,12,Edit Account Details,Edit Account Details
+give me infornation about the lost pin,give me information about the lost pin,3,Account Recovery,Account Recovery
+help calling customer service,help calling customer service,11,File Complaint/Claim/Review,Human Agent Request
+help changing my address,help changing my address,0,Change Shipping Address,Change Shipping Address
+help chattinb with an operator,help chatting with an operator,14,Human Agent Request,Human Agent Request
+help checking at what time customer service available is,help checking at what time customer service available is,18,Delivery ETA,Human Agent Request
+help checking at what time i can contact customer service,help checking at what time i can contact customer service,18,Delivery ETA,Human Agent Request
+help checking the withdrawal charges,help checking the withdrawal charges,6,Order Cancellation,Order Cancellation
+help checking what hours i can contact customer service,help checking what hours i can contact customer service,18,Delivery ETA,Human Agent Request
+help checking what payment methods you accept,help checking what payment methods you accept,2,Payment Options/Issues,Payment Options/Issues
+help checking your allowed payment methods,help checking your allowed payment methods,2,Payment Options/Issues,Payment Options/Issues
+help checking your allowed payment options,help checking your allowed payment options,2,Payment Options/Issues,Payment Options/Issues
+help checking your payment methods,help checking your payment methods,2,Payment Options/Issues,Payment Options/Issues
+help editing my personal information,help editing my personal information,12,Edit Account Details,Edit Account Details
+help me check at what time customer service available is,help me check at what time customer service available is,18,Delivery ETA,Human Agent Request
+help me check at what time i can contact customer service,help me check at what time i can contact customer service,18,Delivery ETA,Human Agent Request
+help me check what hours i can call customer service,help me check what hours i can call customer service,18,Delivery ETA,Human Agent Request
+help me check what hours i can contact customer service,help me check what hours i can contact customer service,18,Delivery ETA,Human Agent Request
+help me check what payment methods are available,help me check what payment methods are available,2,Payment Options/Issues,Payment Options/Issues
+help me check what payment methods you accept,help me check what payment methods you accept,2,Payment Options/Issues,Payment Options/Issues
+help me check your allowed payment methods,help me check your allowed payment methods,2,Payment Options/Issues,Payment Options/Issues
+help me checking at what time customer service available is,help me checking at what time customer service available is,18,Delivery ETA,Human Agent Request
+help me checking at what time i can contact customer service,help me checking at what time i can contact customer service,18,Delivery ETA,Human Agent Request
+help me checking what hours i can contact customer service,help me checking what hours i can contact customer service,18,Delivery ETA,Human Agent Request
+help me checking what payment methods are available,help me checking what payment methods are available,2,Payment Options/Issues,Payment Options/Issues
+help me checking what payment methods you accept,help me checking what payment methods you accept,2,Payment Options/Issues,Payment Options/Issues
+help me checking your allowed payment methods,help me checking your allowed payment methods,2,Payment Options/Issues,Payment Options/Issues
+help me contact customer service,help me contact customer service,11,File Complaint/Claim/Review,Human Agent Request
+help me modifying my personal information,help me modifying my personal information,12,Edit Account Details,Edit Account Details
+help me seeing what payment methods areavailable,help me seeing what payment methods are available,2,Payment Options/Issues,Payment Options/Issues
+help me to check at what time customer service available is,help me to check at what time customer service available is,18,Delivery ETA,Human Agent Request
+help me to check what hours i can contact customer service,help me to check what hours i can contact customer service,18,Delivery ETA,Human Agent Request
+help me to check what payment methods are available,help me to check what payment methods are available,2,Payment Options/Issues,Payment Options/Issues
+help me to check what payment methods you accept,help me to check what payment methods you accept,2,Payment Options/Issues,Payment Options/Issues
+help me to contact customer service,help me to contact customer service,11,File Complaint/Claim/Review,Human Agent Request
+help me to list your accepted payment methods,help me to list your accepted payment methods,2,Payment Options/Issues,Payment Options/Issues
+help me to see what hours i can reach customer service,help me to see what hours i can reach customer service,18,Delivery ETA,Human Agent Request
+help me to see what payment methods are allowed,help me to see what payment methods are allowed,2,Payment Options/Issues,Payment Options/Issues
+help receiving a rebate,help receiving a rebate,4,Refund status/Requests & Policies,Refund status/Requests & Policies
+help regarding payments,help regarding payments,2,Payment Options/Issues,Payment Options/Issues
+help switching user,help switching user,19,Account Creation / Switching,Account Creation / Switching
+help to check at what time customer service available is,help to check at what time customer service available is,18,Delivery ETA,Human Agent Request
+help to check what hours i can contact customer service,help to check what hours i can contact customer service,18,Delivery ETA,Human Agent Request
+help to check what payment methods you accept,help to check what payment methods you accept,2,Payment Options/Issues,Payment Options/Issues
+help to check your allowed payment methods,help to check your allowed payment methods,2,Payment Options/Issues,Payment Options/Issues
+help to contact customer service,help to contact customer service,11,File Complaint/Claim/Review,Human Agent Request
+help to list your payment methods,help to list your payment methods,2,Payment Options/Issues,Payment Options/Issues
+help to modify the personal informatoin,help to modify the personal information,12,Edit Account Details,Edit Account Details
+help to see what hours i can reach customer service,help to see what hours i can reach customer service,18,Delivery ETA,Human Agent Request
+help with payments,help with payments,2,Payment Options/Issues,Payment Options/Issues
+how can i add something?,how can i add something?,13,Purchase Assistance,Purchase Assistance
+how can i check at what time customer service available is?,how can i check at what time customer service available is?,18,Delivery ETA,Human Agent Request
+how can i check at what time i can contact customer service?,how can i check at what time i can contact customer service?,18,Delivery ETA,Human Agent Request
+how can i check at what time i can reach customer service,how can i check at what time i can reach customer service,18,Delivery ETA,Human Agent Request
+how can i check the allowed payment options?,how can i check the allowed payment options?,2,Payment Options/Issues,Payment Options/Issues
+how can i check what hours i can contact customer service?,how can i check what hours i can contact customer service?,18,Delivery ETA,Human Agent Request
+how can i check what payment methods are available?,how can i check what payment methods are available?,2,Payment Options/Issues,Payment Options/Issues
+how can i check what payment methods you accept?,how can i check what payment methods you accept?,2,Payment Options/Issues,Payment Options/Issues
+how can i check your allowed payment methods?,how can i check your allowed payment methods?,2,Payment Options/Issues,Payment Options/Issues
+how can i find information about editing the damn address ?,how can i find information about editing the  address ?,12,Edit Account Details,Edit Account Details
+how can i get information abuot my lost pin,how can i get information about my lost pin,3,Account Recovery,Account Recovery
+how can i get my money back?,how can i get my money back?,4,Refund status/Requests & Policies,Refund status/Requests & Policies
+how can i see your payment methods?,how can i see your payment methods?,2,Payment Options/Issues,Payment Options/Issues
+how can i speak to a person?,how can i speak to a person?,14,Human Agent Request,Human Agent Request
+how can i speak to customer service,how can i speak to customer service,11,File Complaint/Claim/Review,Human Agent Request
+how could i check what payment methods you accept?,how could i check what payment methods you accept?,2,Payment Options/Issues,Payment Options/Issues
+how could i check your allowed payment methods?,how could i check your allowed payment methods?,2,Payment Options/Issues,Payment Options/Issues
+how could i contact customer service?,how could i contact customer service?,11,File Complaint/Claim/Review,Human Agent Request
+how could i get my money back?,how could i get my money back?,4,Refund status/Requests & Policies,Refund status/Requests & Policies
+how do i check at what time customer service available is?,how do i check at what time customer service available is?,18,Delivery ETA,Human Agent Request
+how do i check at what time i can call customer service?,how do i check at what time i can call customer service?,18,Delivery ETA,Human Agent Request
+how do i check at what time i can contact customer service?,how do i check at what time i can contact customer service?,18,Delivery ETA,Human Agent Request
+how do i check what hours i can contact customer service?,how do i check what hours i can contact customer service?,18,Delivery ETA,Human Agent Request
+how do i check what payment methods are available?,how do i check what payment methods are available?,2,Payment Options/Issues,Payment Options/Issues
+how do i check what payment methods you accept?,how do i check what payment methods you accept?,2,Payment Options/Issues,Payment Options/Issues
+how do i check your allowed payment methods?,how do i check your allowed payment methods?,2,Payment Options/Issues,Payment Options/Issues
+how do i contact customer service?,how do i contact customer service?,11,File Complaint/Claim/Review,Human Agent Request
+how do i get my money back?,how do i get my money back?,4,Refund status/Requests & Policies,Refund status/Requests & Policies
+how do i list your payment options?,how do i list your payment options?,2,Payment Options/Issues,Payment Options/Issues
+how do i see th accepted payment methods,how do i see th accepted payment methods,2,Payment Options/Issues,Payment Options/Issues
+how long until i get my money back?,how long until i get my money back?,4,Refund status/Requests & Policies,Refund status/Requests & Policies
+how to add something?,how to add something?,13,Purchase Assistance,Purchase Assistance
+how to change the personal data?,how to change the personal data?,12,Edit Account Details,Edit Account Details
+how to change user?,how to change user?,19,Account Creation / Switching,Account Creation / Switching
+how to check at what time i can contact customer service?,how to check at what time i can contact customer service?,18,Delivery ETA,Human Agent Request
+how to check the withdrawal charges?,how to check the withdrawal charges?,6,Order Cancellation,Order Cancellation
+how to check ur goddamn allowed payment options,how to check your  allowed payment options,2,Payment Options/Issues,Payment Options/Issues
+how to check what hours i can contact customer service?,how to check what hours i can contact customer service?,18,Delivery ETA,Human Agent Request
+how to check what payment methods are accepted?,how to check what payment methods are accepted?,2,Payment Options/Issues,Payment Options/Issues
+how to check what payment methods are available?,how to check what payment methods are available?,2,Payment Options/Issues,Payment Options/Issues
+how to check what payment methods you accept?,how to check what payment methods you accept?,2,Payment Options/Issues,Payment Options/Issues
+how to check your allowed payment methods?,how to check your allowed payment methods?,2,Payment Options/Issues,Payment Options/Issues
+how to contact customer service?,how to contact customer service?,11,File Complaint/Claim/Review,Human Agent Request
+how to correct my address?,how to correct my address?,0,Change Shipping Address,Change Shipping Address
+how to get my money back?,how to get my money back?,4,Refund status/Requests & Policies,Refund status/Requests & Policies
+how to modify my personal info?,how to modify my personal info?,12,Edit Account Details,Edit Account Details
+how to see what payment options are allowed?,how to see what payment options are allowed?,2,Payment Options/Issues,Payment Options/Issues
+i am trying to check what payment methods are available,i am trying to check what payment methods are available,2,Payment Options/Issues,Payment Options/Issues
+i am trying to check what payment methods you accept,i am trying to check what payment methods you accept,2,Payment Options/Issues,Payment Options/Issues
+i am trying to check your allowed payment methods,i am trying to check your allowed payment methods,2,Payment Options/Issues,Payment Options/Issues
+i can't chat with an operator,i can't chat with an operator,14,Human Agent Request,Human Agent Request
+i cannot find the goddamn earpy exit charges i need help,i cannot find the  early exit charges i need help,6,Order Cancellation,Order Cancellation
+i do no know what to do to list your payment methods,i do no know what to do to list your payment methods,2,Payment Options/Issues,Payment Options/Issues
+i do not use this user how can i change to the other one,i do not use this user how can i change to the other one,19,Account Creation / Switching,Account Creation / Switching
+i do not knlw what i have to do to correct the address,i do not know what i have to do to correct the address,0,Change Shipping Address,Change Shipping Address
+i do not know how i can ask for compensations,i do not know how i can ask for compensations,11,File Complaint/Claim/Review,File Complaint/Claim/Review
+i do not know how i can check the allowed payment options,i do not know how i can check the allowed payment options,2,Payment Options/Issues,Payment Options/Issues
+i do not know how i can check the avaqilable payment methods,i do not know how i can check the available payment methods,2,Payment Options/Issues,Payment Options/Issues
+i do not know how i can check your allowed payment methods,i do not know how i can check your allowed payment methods,2,Payment Options/Issues,Payment Options/Issues
+i do not know how i can contact customer service,i do not know how i can contact customer service,11,File Complaint/Claim/Review,Human Agent Request
+i do not know how i can list the accepted payment options,i do not know how i can list the accepted payment options,2,Payment Options/Issues,Payment Options/Issues
+i do not know how i can talk to customer service,i do not know how i can talk to customer service,11,File Complaint/Claim/Review,Human Agent Request
+i do not know how i could add something,i do not know how i could add something,13,Purchase Assistance,Purchase Assistance
+i do not know how to call customer service,i do not know how to call customer service,11,File Complaint/Claim/Review,Human Agent Request
+i do not know how to check the allowed payment options,i do not know how to check the allowed payment options,2,Payment Options/Issues,Payment Options/Issues
+i do not know how to check your accepted payment methods,i do not know how to check your accepted payment methods,2,Payment Options/Issues,Payment Options/Issues
+i do not know how to contact customer service,i do not know how to contact customer service,11,File Complaint/Claim/Review,Human Agent Request
+i do not know how to correct the user info,i do not know how to correct the user information,12,Edit Account Details,Edit Account Details
+i do not know how to list the allowed payment options,i do not know how to list the allowed payment options,2,Payment Options/Issues,Payment Options/Issues
+i do not know how to list theavailable payment options,i do not know how to list the available payment options,2,Payment Options/Issues,Payment Options/Issues
+i do not know how to list your available payment methos,i do not know how to list your available payment methods,2,Payment Options/Issues,Payment Options/Issues
+i do not know how to see the payment options,i do not know how to see the payment options,2,Payment Options/Issues,Payment Options/Issues
+i do not know how to speak ot bloody customer service,i do not know how to speak ot  customer service,14,Human Agent Request,Human Agent Request
+i do not know how to speak with customer service,i do not know how to speak with customer service,11,File Complaint/Claim/Review,Human Agent Request
+i do not know hwat to do to see the withdrawal charges,i do not know what to do to see the withdrawal charges,6,Order Cancellation,Order Cancellation
+i do not know what i have to do to contact customer service,i do not know what i have to do to contact customer service,11,File Complaint/Claim/Review,Human Agent Request
+i do not know what i have to do to edit the user information,i do not know what i have to do to edit the user information,12,Edit Account Details,Edit Account Details
+i do not know what i need to do to see your payment methods,i do not know what i need to do to see your payment methods,2,Payment Options/Issues,Payment Options/Issues
+i do not know what i need to do to speak to customer service,i do not know what i need to do to speak to customer service,11,File Complaint/Claim/Review,Human Agent Request
+i do not know what i need to do to update the user info,i do not know what i need to do to update the user information,12,Edit Account Details,Edit Account Details
+i do not know what to do to change my damn personal info,i do not know what to do to change my  personal information,12,Edit Account Details,Edit Account Details
+i do not know what to do to correct the personal ingo,i do not know what to do to correct the personal info,12,Edit Account Details,Edit Account Details
+i do not know what to do to list the allowed payment options,i do not know what to do to list the allowed payment options,2,Payment Options/Issues,Payment Options/Issues
+i do not know what to do to list ur accepted paymet options,i do not know what to do to list your accepted payment options,2,Payment Options/Issues,Payment Options/Issues
+i do not know what to do to list ur allowed payment methods,i do not know what to do to list your allowed payment methods,2,Payment Options/Issues,Payment Options/Issues
+i do not know what to do to speak to customer service,i do not know what to do to speak to customer service,11,File Complaint/Claim/Review,Human Agent Request
+i do not know what to do to update the fucking user info,i do not know what to do to update the  user information,12,Edit Account Details,Edit Account Details
+i do not understand anything usay can uirect to me somebody,i do not understand anything you say can direct to me somebody,14,Human Agent Request,Human Agent Request
+i don't know how i can check the allowed paymen options,i don't know how i can check the allowed payment options,2,Payment Options/Issues,Payment Options/Issues
+i don't know how i can check your allowed payment methods,i don't know how i can check your allowed payment methods,2,Payment Options/Issues,Payment Options/Issues
+i don't know how i can contact customer service,i don't know how i can contact customer service,11,File Complaint/Claim/Review,Human Agent Request
+i don't know how i could add something,i don't know how i could add something,13,Purchase Assistance,Purchase Assistance
+i don't know how to add something,i don't know how to add something,13,Purchase Assistance,Purchase Assistance
+i don't know how to check your allowed payment methods,i don't know how to check your allowed payment methods,2,Payment Options/Issues,Payment Options/Issues
+i don't know how to see your allowed payment options,i don't know how to see your allowed payment options,2,Payment Options/Issues,Payment Options/Issues
+i don't know what i have to do to contact customer service,i don't know what i have to do to contact customer service,11,File Complaint/Claim/Review,Human Agent Request
+i don't know what i nee to do to call customer service,i don't know what i nee to do to call customer service,11,File Complaint/Claim/Review,Human Agent Request
+i don't know what i need to do to contact customer service,i don't know what i need to do to contact customer service,11,File Complaint/Claim/Review,Human Agent Request
+i don't know what to do to contact customer service,i don't know what to do to contact customer service,11,File Complaint/Claim/Review,Human Agent Request
+i don't know what to do to edit the address,i don't know what to do to edit the address,12,Edit Account Details,Edit Account Details
+i don't know what to do to see the available payment methods,i don't know what to do to see the available payment methods,2,Payment Options/Issues,Payment Options/Issues
+i don't know what to do to see the early exit charges,i don't know what to do to see the early exit charges,6,Order Cancellation,Order Cancellation
+i donot know what i have to do to edit the personal info,i do not know what i have to do to edit the personal information,12,Edit Account Details,Edit Account Details
+i dont know how i can chat wit a person,i dont know how i can chat wit a person,14,Human Agent Request,Human Agent Request
+i dont know how i can check the available apyment options,i dont know how i can check the available payment options,2,Payment Options/Issues,Payment Options/Issues
+i dont know how i can see the payment options,i dont know how i can see the payment options,2,Payment Options/Issues,Payment Options/Issues
+i dont know how i can talk to bloody customer service,i dont know how i can talk to  customer service,11,File Complaint/Claim/Review,Human Agent Request
+i dont know how to check ur accepted payment methods,i dont know how to check your accepted payment methods,2,Payment Options/Issues,Payment Options/Issues
+i dont know how to list the available payment methods,i dont know how to list the available payment methods,2,Payment Options/Issues,Payment Options/Issues
+i dont know how to see the early exiut charges,i dont know how to see the early exit charges,6,Order Cancellation,Order Cancellation
+i dont know what i need to do to see the payment methods,i dont know what i need to do to see the payment methods,2,Payment Options/Issues,Payment Options/Issues
+i dont know what i need to do to speak with an operator,i dont know what i need to do to speak with an operator,14,Human Agent Request,Human Agent Request
+i dont know what to do to contact a person,i dont know what to do to contact a person,14,Human Agent Request,Human Agent Request
+i dont know what to do to list the available payment methods,i dont know what to do to list the available payment methods,2,Payment Options/Issues,Payment Options/Issues
+i get an error when i try to pay,i get an error when i try to pay,2,Payment Options/Issues,Payment Options/Issues
+i have a question about my payments,i have a question about my payments,2,Payment Options/Issues,Payment Options/Issues
+i have a question about the access key retrieval,i have a question about the access key retrieval,3,Account Recovery,Account Recovery
+i have got to check what payment methods you accept,i have got to check what payment methods you accept,2,Payment Options/Issues,Payment Options/Issues
+i have got to check your allowed payment methods,i have got to check your allowed payment methods,2,Payment Options/Issues,Payment Options/Issues
+i have got to edit the address,i have got to edit the address,12,Edit Account Details,Edit Account Details
+i have got to list ur available payment methods how to do it,i have got to list your available payment methods how to do it,2,Payment Options/Issues,Payment Options/Issues
+i have got to list ur payment methods can i get some help,i have got to list your payment methods can i get some help,2,Payment Options/Issues,Payment Options/Issues
+i have got to modify the suer data how do i do it,i have got to modify the suer data how do i do it,12,Edit Account Details,Edit Account Details
+i have got to remove something,i have got to remove something,16,Modify Existing Order,Modify Existing Order
+"i have got to see the allowed payment methods , help me","i have got to see the allowed payment methods , help me",2,Payment Options/Issues,Payment Options/Issues
+i have got to see what payment options are accepted,i have got to see what payment options are accepted,2,Payment Options/Issues,Payment Options/Issues
+i have got to see your available payment methods,i have got to see your available payment methods,2,Payment Options/Issues,Payment Options/Issues
+i have got to speak to a damn operator,i have got to speak to a  operator,14,Human Agent Request,Human Agent Request
+i have got to speak to a person,i have got to speak to a person,14,Human Agent Request,Human Agent Request
+i have put my old address by mistake,i have put my old address by mistake,0,Change Shipping Address,Change Shipping Address
+i have put the old address by mistake,i have put the old address by mistake,0,Change Shipping Address,Change Shipping Address
+i have to add something,i have to add something,13,Purchase Assistance,Purchase Assistance
+i have to check at what time i can contact customer service,i have to check at what time i can contact customer service,18,Delivery ETA,Human Agent Request
+i have to check the pahment options,i have to check the payment options,2,Payment Options/Issues,Payment Options/Issues
+"i have to check what payment methods are allowed, help me","i have to check what payment methods are allowed, help me",2,Payment Options/Issues,Payment Options/Issues
+i have to check what payment methods are available,i have to check what payment methods are available,2,Payment Options/Issues,Payment Options/Issues
+i have to check what payment methods you accept,i have to check what payment methods you accept,2,Payment Options/Issues,Payment Options/Issues
+i have to check your allowed payment methods,i have to check your allowed payment methods,2,Payment Options/Issues,Payment Options/Issues
+i have to check your available payment options,i have to check your available payment options,2,Payment Options/Issues,Payment Options/Issues
+i have to contact somebody,i have to contact somebody,14,Human Agent Request,Human Agent Request
+i have to list your allowed payment options,i have to list your allowed payment options,2,Payment Options/Issues,Payment Options/Issues
+"i have to modify the personal data, can you help me?","i have to modify the personal data, can you help me?",12,Edit Account Details,Edit Account Details
+i have to see the payment options,i have to see the payment options,2,Payment Options/Issues,Payment Options/Issues
+i have to see ur available payment methods how to do it,i have to see your available payment methods how to do it,2,Payment Options/Issues,Payment Options/Issues
+"i have to see your payment methods, how to do it?","i have to see your payment methods, how to do it?",2,Payment Options/Issues,Payment Options/Issues
+i have to speak to a person,i have to speak to a person,14,Human Agent Request,Human Agent Request
+i have troubles trying to modify the address,i have troubles trying to modify the address,0,Change Shipping Address,Change Shipping Address
+i need help editing my personal information,i need help editing my personal information,12,Edit Account Details,Edit Account Details
+i need help seeing at what time i can call customer service,i need help seeing at what time i can call customer service,18,Delivery ETA,Human Agent Request
+i need help seeing your payment methods,i need help seeing your payment methods,2,Payment Options/Issues,Payment Options/Issues
+i need help to check what payment methods are available,i need help to check what payment methods are available,2,Payment Options/Issues,Payment Options/Issues
+i need help to check what payment methods you accept,i need help to check what payment methods you accept,2,Payment Options/Issues,Payment Options/Issues
+i need help to check your allowed payment methods,i need help to check your allowed payment methods,2,Payment Options/Issues,Payment Options/Issues
+i need help to contact customer service,i need help to contact customer service,11,File Complaint/Claim/Review,Human Agent Request
+i need help to list the payment methods,i need help to list the payment methods,2,Payment Options/Issues,Payment Options/Issues
+i need help to modify my personal information,i need help to modify my personal information,12,Edit Account Details,Edit Account Details
+i need help to see the available payment methods,i need help to see the available payment methods,2,Payment Options/Issues,Payment Options/Issues
+i need help to see what payment options are available,i need help to see what payment options are available,2,Payment Options/Issues,Payment Options/Issues
+i need help with removing something,i need help with removing something,16,Modify Existing Order,Modify Existing Order
+i need information about modifying the address,i need information about modifying the address,0,Change Shipping Address,Change Shipping Address
+i need to change the personal info,i need to change the personal information,12,Edit Account Details,Edit Account Details
+i need to check at what time customer service available is,i need to check at what time customer service available is,18,Delivery ETA,Human Agent Request
+i need to check at what time i can contact customer service,i need to check at what time i can contact customer service,18,Delivery ETA,Human Agent Request
+i need to check what hours i can contact customer service,i need to check what hours i can contact customer service,18,Delivery ETA,Human Agent Request
+i need to check what payment methods are available,i need to check what payment methods are available,2,Payment Options/Issues,Payment Options/Issues
+i need to check what payment methods you accept,i need to check what payment methods you accept,2,Payment Options/Issues,Payment Options/Issues
+i need to check what payment options are allowed,i need to check what payment options are allowed,2,Payment Options/Issues,Payment Options/Issues
+i need to check your allowed payment methods,i need to check your allowed payment methods,2,Payment Options/Issues,Payment Options/Issues
+"i need to list the payment options, how to do it?","i need to list the payment options, how to do it?",2,Payment Options/Issues,Payment Options/Issues
+i no longer need these user i have to switch to my other one,i no longer need these user i have to switch to my other one,19,Account Creation / Switching,Account Creation / Switching
+"i no longer want this user, how to switch to my other one?","i no longer want this user, how to switch to my other one?",19,Account Creation / Switching,Account Creation / Switching
+i put my old address by mistake,i put my old address by mistake,0,Change Shipping Address,Change Shipping Address
+i put the old address by mistake,i put the old address by mistake,0,Change Shipping Address,Change Shipping Address
+i try to add something,i try to add something,13,Purchase Assistance,Purchase Assistance
+i try to check at what time customer service available is,i try to check at what time customer service available is,18,Delivery ETA,Human Agent Request
+i try to check at what time i can contact customer service,i try to check at what time i can contact customer service,18,Delivery ETA,Human Agent Request
+i try to check what hours i can contact customer service,i try to check what hours i can contact customer service,18,Delivery ETA,Human Agent Request
+i try to check what payment methods are available,i try to check what payment methods are available,2,Payment Options/Issues,Payment Options/Issues
+i try to check your allowed payment methods,i try to check your allowed payment methods,2,Payment Options/Issues,Payment Options/Issues
+i try to contact customer service,i try to contact customer service,11,File Complaint/Claim/Review,Human Agent Request
+i want help checking what payment methods are available,i want help checking what payment methods are available,2,Payment Options/Issues,Payment Options/Issues
+i want help checking what payment methods you accept,i want help checking what payment methods you accept,2,Payment Options/Issues,Payment Options/Issues
+i want help checking your allowed payment methods,i want help checking your allowed payment methods,2,Payment Options/Issues,Payment Options/Issues
+i want help editing my personal information,i want help editing my personal information,12,Edit Account Details,Edit Account Details
+i want help switching user,i want help switching user,19,Account Creation / Switching,Account Creation / Switching
+i want help to add something,i want help to add something,13,Purchase Assistance,Purchase Assistance
+i want help to check what payment methods are available,i want help to check what payment methods are available,2,Payment Options/Issues,Payment Options/Issues
+i want help to check your allowed payment methods,i want help to check your allowed payment methods,2,Payment Options/Issues,Payment Options/Issues
+i want help to contact customer service,i want help to contact customer service,11,File Complaint/Claim/Review,Human Agent Request
+i want help to see at what time i can reach customer service,i want help to see at what time i can reach customer service,18,Delivery ETA,Human Agent Request
+i want help to see the early exit charges,i want help to see the early exit charges,6,Order Cancellation,Order Cancellation
+i want help to speak to customer service,i want help to speak to customer service,11,File Complaint/Claim/Review,Human Agent Request
+i want information about forgotten access key,i want information about forgotten access key,3,Account Recovery,Account Recovery
+i want information about forgotten access keys,i want information about forgotten access keys,3,Account Recovery,Account Recovery
+i want ot update the address,i want ot update the address,0,Change Shipping Address,Change Shipping Address
+i want support updatng the address,i want support updating the address,0,Change Shipping Address,Change Shipping Address
+i want supports modifying my address,i want supports modifying my address,0,Change Shipping Address,Change Shipping Address
+i want to check at what time customer service available is,i want to check at what time customer service available is,18,Delivery ETA,Human Agent Request
+i want to check at what time i can contact customer service,i want to check at what time i can contact customer service,18,Delivery ETA,Human Agent Request
+i want to check what payment methods are available,i want to check what payment methods are available,2,Payment Options/Issues,Payment Options/Issues
+i want to check what payment methods you accept,i want to check what payment methods you accept,2,Payment Options/Issues,Payment Options/Issues
+i want to check your accepted payment options,i want to check your accepted payment options,2,Payment Options/Issues,Payment Options/Issues
+i want to contact customer service,i want to contact customer service,11,File Complaint/Claim/Review,Human Agent Request
+"i want to list the payment options, can i get some help?","i want to list the payment options, can i get some help?",2,Payment Options/Issues,Payment Options/Issues
+i want to see at what time i can reach customer service,i want to see at what time i can reach customer service,18,Delivery ETA,Human Agent Request
+"i want to see your allowed payment options, how can i do it?","i want to see your allowed payment options, how can i do it?",2,Payment Options/Issues,Payment Options/Issues
+"i want to see your allowed payment options, i need help","i want to see your allowed payment options, i need help",2,Payment Options/Issues,Payment Options/Issues
+i would like to check what payment methods are available,i would like to check what payment methods are available,2,Payment Options/Issues,Payment Options/Issues
+i would like to check what payment methods you accept,i would like to check what payment methods you accept,2,Payment Options/Issues,Payment Options/Issues
+i would like to check your allowed payment methods,i would like to check your allowed payment methods,2,Payment Options/Issues,Payment Options/Issues
+i would like to remove something,i would like to remove something,16,Modify Existing Order,Modify Existing Order
+i'm looking for inforation about lost passwords help me,i'm looking for information about lost passwords help me,3,Account Recovery,Account Recovery
+i'm looking for information about changing my address,i'm looking for information about changing my address,0,Change Shipping Address,Change Shipping Address
+i'm looking for information about modifying my address,i'm looking for information about modifying my address,12,Edit Account Details,Edit Account Details
+i'm looking for information about the access key retrieval,i'm looking for information about the access key retrieval,3,Account Recovery,Account Recovery
+i'm trying to correct the user info,i'm trying to correct the user information,12,Edit Account Details,Edit Account Details
+information about the lost key,information about the lost key,3,Account Recovery,Account Recovery
+is it possible to call customer service,is it possible to call customer service,11,File Complaint/Claim/Review,Human Agent Request
+is it possible to check what payment methods are available?,is it possible to check what payment methods are available?,2,Payment Options/Issues,Payment Options/Issues
+is it possible to check what payment methods you accept?,is it possible to check what payment methods you accept?,2,Payment Options/Issues,Payment Options/Issues
+is it possible to check your allowed payment methods?,is it possible to check your allowed payment methods?,2,Payment Options/Issues,Payment Options/Issues
+is it possible to contact customer service?,is it possible to contact customer service?,11,File Complaint/Claim/Review,Human Agent Request
+is it possible to get my money back?,is it possible to get my money back?,4,Refund status/Requests & Policies,Refund status/Requests & Policies
+is it possible to list your payment options?,is it possible to list your payment options?,2,Payment Options/Issues,Payment Options/Issues
+is it possible to see what payment methods are available,is it possible to see what payment methods are available,2,Payment Options/Issues,Payment Options/Issues
+is it possible to see your payment options?,is it possible to see your payment options?,2,Payment Options/Issues,Payment Options/Issues
+list the payment options,list the payment options,2,Payment Options/Issues,Payment Options/Issues
+my address has changed help me changing it,my address has changed help me changing it,0,Change Shipping Address,Change Shipping Address
+need to correct the personal data how can i do it,need to correct the personal data how can i do it,12,Edit Account Details,Edit Account Details
+need to get in touch with customer service,need to get in touch with customer service,11,File Complaint/Claim/Review,Human Agent Request
+need to list ur available payment methods,need to list your available payment methods,2,Payment Options/Issues,Payment Options/Issues
+show me at what time customer service available is,show me at what time customer service available is,18,Delivery ETA,Human Agent Request
+show me at what time i can contact customer service,show me at what time i can contact customer service,18,Delivery ETA,Human Agent Request
+show me the payment options,show me the payment options,2,Payment Options/Issues,Payment Options/Issues
+show me what hours i can contact customer service,show me what hours i can contact customer service,18,Delivery ETA,Human Agent Request
+show me what payment methods are available,show me what payment methods are available,2,Payment Options/Issues,Payment Options/Issues
+show me what payment methods you accept,show me what payment methods you accept,2,Payment Options/Issues,Payment Options/Issues
+show me your allowed payment methods,show me your allowed payment methods,2,Payment Options/Issues,Payment Options/Issues
+speak to a person,speak to a person,14,Human Agent Request,Human Agent Request
+switching to another user,switching to another user,19,Account Creation / Switching,Account Creation / Switching
+switching user,switching user,19,Account Creation / Switching,Account Creation / Switching
+tell me at what time customer service available is,tell me at what time customer service available is,18,Delivery ETA,Human Agent Request
+tell me at what time i can contact customer service,tell me at what time i can contact customer service,18,Delivery ETA,Human Agent Request
+tell me more about updating my address,tell me more about updating my address,0,Change Shipping Address,Change Shipping Address
+tell me what payment methods are available,tell me what payment methods are available,2,Payment Options/Issues,Payment Options/Issues
+tell me what payment methods you accept,tell me what payment methods you accept,2,Payment Options/Issues,Payment Options/Issues
+there are troubles updating the address,there are troubles updating the address,0,Change Shipping Address,Change Shipping Address
+uare not helpful i wanmt help to speak with a person,you are not helpful i want help to speak with a person,14,Human Agent Request,Human Agent Request
+under what circumstances can i ask for my money back?,under what circumstances can i ask for my money back?,4,Refund status/Requests & Policies,Refund status/Requests & Policies
+use another user,use another user,19,Account Creation / Switching,Account Creation / Switching
+using another user,using another user,19,Account Creation / Switching,Account Creation / Switching
+wanna chat with a person,want to chat with a person,14,Human Agent Request,Human Agent Request
+wanna check at what time i can call customer service,want to check at what time i can call customer service,18,Delivery ETA,Human Agent Request
+wanna check at what time i can reach customer service,want to check at what time i can reach customer service,18,Delivery ETA,Human Agent Request
+wanna list ur allowed payment options how do i do it,want to list your allowed payment options how do i do it,2,Payment Options/Issues,Payment Options/Issues
+wanna speak to an operator,want to speak to an operator,14,Human Agent Request,Human Agent Request
+wanna speakto customer service help me,want to speak to customer service help me,11,File Complaint/Claim/Review,Human Agent Request
+wanna update the address,want to update the address,0,Change Shipping Address,Change Shipping Address
+want help checking ur allowed payment methods,want help checking your allowed payment methods,2,Payment Options/Issues,Payment Options/Issues
+want help checking ur available payment options,want help checking your available payment options,2,Payment Options/Issues,Payment Options/Issues
+want help seeing you allowed payment methods,want help seeing you allowed payment methods,2,Payment Options/Issues,Payment Options/Issues
+want help speaking to customer service,want help speaking to customer service,11,File Complaint/Claim/Review,Human Agent Request
+want help to see what payment methods uaccept,want help to see what payment methods you accept,2,Payment Options/Issues,Payment Options/Issues
+want help to speak to an operator,want help to speak to an operator,14,Human Agent Request,Human Agent Request
+want supports trying to change my damn address,want supports trying to change my  address,0,Change Shipping Address,Change Shipping Address
+what are the payment methods available?,what are the payment methods available?,2,Payment Options/Issues,Payment Options/Issues
+what are the payment options allowed,what are the payment options allowed,2,Payment Options/Issues,Payment Options/Issues
+what do i have to do to check your allowed payment methods?,what do i have to do to check your allowed payment methods?,2,Payment Options/Issues,Payment Options/Issues
+what do i have to do to contact customer service?,what do i have to do to contact customer service?,11,File Complaint/Claim/Review,Human Agent Request
+what do i have to do to correct my personla information?,what do i have to do to correct my personal information?,12,Edit Account Details,Edit Account Details
+what do i have to do to get my money back?,what do i have to do to get my money back?,4,Refund status/Requests & Policies,Refund status/Requests & Policies
+what do i have to do to list the fucking payment methods?,what do i have to do to list the  payment methods?,2,Payment Options/Issues,Payment Options/Issues
+what do i have to do to list urallowed payment methods,what do i have to do to list you are allowed payment methods,2,Payment Options/Issues,Payment Options/Issues
+what do i have to do to see ur accepted payment methods,what do i have to do to see your accepted payment methods,2,Payment Options/Issues,Payment Options/Issues
+what do i need to do to change my personal information,what do i need to do to change my personal information,12,Edit Account Details,Edit Account Details
+what do i need to do to check the goddamn payment methods,what do i need to do to check the  payment methods,2,Payment Options/Issues,Payment Options/Issues
+what do i need to do to check your allowed payment methods?,what do i need to do to check your allowed payment methods?,2,Payment Options/Issues,Payment Options/Issues
+what do i need to do to contact customer service?,what do i need to do to contact customer service?,11,File Complaint/Claim/Review,Human Agent Request
+what do i need to do to correct the address?,what do i need to do to correct the address?,0,Change Shipping Address,Change Shipping Address
+what do i need to do to edit the address,what do i need to do to edit the address,12,Edit Account Details,Edit Account Details
+what do i need to do to get my money back?,what do i need to do to get my money back?,4,Refund status/Requests & Policies,Refund status/Requests & Policies
+what do i need to do to speak with an operator?,what do i need to do to speak with an operator?,14,Human Agent Request,Human Agent Request
+what hours can i contact customer service?,what hours can i contact customer service?,18,Delivery ETA,Human Agent Request
+what hours is customer service available?,what hours is customer service available?,18,Delivery ETA,Human Agent Request
+what is the customer service mail?,what is the customer service mail?,11,File Complaint/Claim/Review,Human Agent Request
+what is the customer service number?,what is the customer service number?,11,File Complaint/Claim/Review,Human Agent Request
+what is your customer service mail?,what is your customer service mail?,11,File Complaint/Claim/Review,Human Agent Request
+what is your customer service number?,what is your customer service number?,11,File Complaint/Claim/Review,Human Agent Request
+what payment methods are available?,what payment methods are available?,2,Payment Options/Issues,Payment Options/Issues
+what payment methods do you accept?,what payment methods do you accept?,2,Payment Options/Issues,Payment Options/Issues
+what time can i contact customer service?,what time can i contact customer service?,18,Delivery ETA,Human Agent Request
+whee can i see your payment options?,whee can i see your payment options?,2,Payment Options/Issues,Payment Options/Issues
+when am i getting my money back?,when am i getting my money back?,4,Refund status/Requests & Policies,Refund status/Requests & Policies
+when am i going to get my money back?,when am i going to get my money back?,4,Refund status/Requests & Policies,Refund status/Requests & Policies
+where can i check the withdrawal charge?,where can i check the withdrawal charge?,6,Order Cancellation,Order Cancellation
+where can i check what hours i can contact customer service?,where can i check what hours i can contact customer service?,18,Delivery ETA,Human Agent Request
+where can i check what payment methods are available?,where can i check what payment methods are available?,2,Payment Options/Issues,Payment Options/Issues
+where can i check what payment options are accepted?,where can i check what payment options are accepted?,2,Payment Options/Issues,Payment Options/Issues
+where can i check your allowed payment methods?,where can i check your allowed payment methods?,2,Payment Options/Issues,Payment Options/Issues
+where can i get my money back?,where can i get my money back?,4,Refund status/Requests & Policies,Refund status/Requests & Policies
+where can i list ur payment options,where can i list your payment options,2,Payment Options/Issues,Payment Options/Issues
+where can i see what payment methods you accept?,where can i see what payment methods you accept?,2,Payment Options/Issues,Payment Options/Issues
+where cani list your accepted payment options?,where can i list your accepted payment options?,2,Payment Options/Issues,Payment Options/Issues
+where could i check what payment methods you accept?,where could i check what payment methods you accept?,2,Payment Options/Issues,Payment Options/Issues
+where could i check your allowed payment methods?,where could i check your allowed payment methods?,2,Payment Options/Issues,Payment Options/Issues
+where could i get my money back?,where could i get my money back?,4,Refund status/Requests & Policies,Refund status/Requests & Policies
+where do i change user?,where do i change user?,19,Account Creation / Switching,Account Creation / Switching
+where do i check at what time customer service available is?,where do i check at what time customer service available is?,18,Delivery ETA,Human Agent Request
+where do i check what hours i can contact customer service?,where do i check what hours i can contact customer service?,18,Delivery ETA,Human Agent Request
+where do i check what payment methods are available?,where do i check what payment methods are available?,2,Payment Options/Issues,Payment Options/Issues
+where do i check what payment methods you accept?,where do i check what payment methods you accept?,2,Payment Options/Issues,Payment Options/Issues
+where do i check your allowed payment methods?,where do i check your allowed payment methods?,2,Payment Options/Issues,Payment Options/Issues
+where do i get my money back?,where do i get my money back?,4,Refund status/Requests & Policies,Refund status/Requests & Policies
+where do i see the allowed payment methods,where do i see the allowed payment methods,2,Payment Options/Issues,Payment Options/Issues
+where do i see the withdrawal charges?,where do i see the withdrawal charges?,6,Order Cancellation,Order Cancellation
+where do i see what payment options are accepted?,where do i see what payment options are accepted?,2,Payment Options/Issues,Payment Options/Issues
+where to check at what time i can contact customer service?,where to check at what time i can contact customer service?,18,Delivery ETA,Human Agent Request
+where to check what hours i can contact customer service?,where to check what hours i can contact customer service?,18,Delivery ETA,Human Agent Request
+where to check what payment methods you accept?,where to check what payment methods you accept?,2,Payment Options/Issues,Payment Options/Issues
+where to check your allowed payment methods?,where to check your allowed payment methods?,2,Payment Options/Issues,Payment Options/Issues
+where to get my money back?,where to get my money back?,4,Refund status/Requests & Policies,Refund status/Requests & Policies
+where to see the available payment otions?,where to see the available payment otions?,2,Payment Options/Issues,Payment Options/Issues
+where to see what hours i can call customer service?,where to see what hours i can call customer service?,18,Delivery ETA,Human Agent Request
+will you show me at what time customer service available is?,will you show me at what time customer service available is?,18,Delivery ETA,Human Agent Request
+will you show me what hours i can contact customer service?,will you show me what hours i can contact customer service?,18,Delivery ETA,Human Agent Request
+will you show me what payment methods are available?,will you show me what payment methods are available?,2,Payment Options/Issues,Payment Options/Issues
+will you show me your allowed payment methods?,will you show me your allowed payment methods?,2,Payment Options/Issues,Payment Options/Issues
+will you tell me at what time customer service available is?,will you tell me at what time customer service available is?,18,Delivery ETA,Human Agent Request
+will you tell me what hours i can contact customer service?,will you tell me what hours i can contact customer service?,18,Delivery ETA,Human Agent Request
+will you tell me what payment methods are available?,will you tell me what payment methods are available?,2,Payment Options/Issues,Payment Options/Issues
+will you tell me what payment methods you accept?,will you tell me what payment methods you accept?,2,Payment Options/Issues,Payment Options/Issues
+will you tell me your allowed payment methods?,will you tell me your allowed payment methods?,2,Payment Options/Issues,Payment Options/Issues
+would it be possible to check your allowed payment methods?,would it be possible to check your allowed payment methods?,2,Payment Options/Issues,Payment Options/Issues
+would it be possible to contact customer service?,would it be possible to contact customer service?,11,File Complaint/Claim/Review,Human Agent Request
+would it be possible to get my money back?,would it be possible to get my money back?,4,Refund status/Requests & Policies,Refund status/Requests & Policies
