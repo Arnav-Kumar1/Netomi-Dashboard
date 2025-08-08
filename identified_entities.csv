@@ -38,64 +38,65 @@ status_check,need to check,34,"[4267, 4268, 4269, 4270, 4271, 4272, 4273, 4274, 
 TIME,hours,33,"[56, 149, 273, 681, 715, 786, 846, 1148, 1179, 1319, 1442, 1529, 1586, 1744, 1989, 2089, 2215, 2276, 2432, 3522, 3676, 4286, 4400, 4973, 5622, 5699, 5985, 5990, 6219, 6220, 6309, 6402, 6412]"
 delivery_address,delivery address,32,"[74, 230, 596, 1263, 1271, 1383, 1459, 1460, 2133, 2535, 2587, 2597, 3348, 3482, 3500, 3637, 3761, 3763, 3765, 3956, 3964, 4928, 5028, 5298, 5419, 5460, 5475, 5709, 5711, 5712, 5716, 6286]"
 support_channel,human agent,24,"[253, 1944, 2159, 2489, 3014, 3024, 3413, 3593, 3780, 3867, 3948, 3950, 4096, 4205, 4477, 4497, 4670, 4680, 4728, 5477, 5665, 5776, 5883, 5888]"
-payment_method,cod,20,"[309, 525, 1274, 1526, 1895, 1908, 2138, 2271, 2500, 2884, 3222, 3732, 3934, 4077, 4180, 4182, 4461, 5502, 5679, 6070]"
-delivery_address,new address,13,"[340, 2611, 3339, 3478, 3539, 3759, 4236, 4583, 4927, 4929, 5710, 5761, 5934]"
 delivery_address,set address,13,"[340, 2611, 3339, 3478, 3539, 3759, 4236, 4583, 4927, 4929, 5710, 5761, 5934]"
+delivery_address,new address,13,"[340, 2611, 3339, 3478, 3539, 3759, 4236, 4583, 4927, 4929, 5710, 5761, 5934]"
 DATE,july,10,"[220, 470, 866, 1089, 1259, 2795, 4320, 5006, 5835, 5943]"
 CARDINAL,one,9,"[1133, 1249, 2603, 3007, 3009, 3011, 5134, 5244, 6301]"
-invoice_reference,check invoice,9,"[758, 759, 760, 761, 762, 763, 764, 765, 766]"
 delivery_option,home delivery,9,"[42, 1303, 1392, 1571, 1728, 2361, 3165, 4387, 5095]"
+invoice_reference,check invoice,9,"[758, 759, 760, 761, 762, 763, 764, 765, 766]"
 DATE,september,8,"[989, 1243, 1773, 2035, 2662, 4753, 4843, 6330]"
 recipient_person,dad,7,"[1754, 2421, 3210, 4302, 4418, 5314, 5801]"
 DATE,february,7,"[1061, 1775, 4279, 5136, 5936, 6109, 6323]"
-DATE,8 months ago,6,"[1738, 4314, 4633, 5613, 5851, 6238]"
-MONEY,seven purchases ago,6,"[1774, 2124, 2404, 2494, 4168, 6384]"
 DATE,june,6,"[1403, 2122, 3552, 4322, 4432, 4851]"
-DATE,eleven months ago,6,"[491, 932, 1254, 3556, 4053, 5004]"
+DATE,8 months ago,6,"[1738, 4314, 4633, 5613, 5851, 6238]"
 CARDINAL,3,6,"[173, 1239, 1435, 2541, 3914, 4321]"
-DATE,four months ago,6,"[481, 759, 1240, 1477, 3791, 5588]"
 DATE,six months ago,6,"[1088, 2805, 3172, 4281, 5663, 6302]"
+MONEY,seven purchases ago,6,"[1774, 2124, 2404, 2494, 4168, 6384]"
 DATE,december,6,"[175, 610, 1491, 4011, 4312, 5133]"
+DATE,eleven months ago,6,"[491, 932, 1254, 3556, 4053, 5004]"
+DATE,four months ago,6,"[481, 759, 1240, 1477, 3791, 5588]"
 CARDINAL,5,5,"[144, 997, 2411, 4842, 6057]"
 DATE,three months ago,5,"[804, 2084, 2207, 5127, 6158]"
-DATE,august,5,"[1130, 1919, 1954, 2314, 3345]"
-DATE,2 months ago,5,"[763, 1081, 2289, 3042, 4816]"
-DATE,november,5,"[290, 766, 934, 6174, 6458]"
-DATE,9 months ago,5,"[414, 778, 2290, 3056, 4968]"
-DATE,october,5,"[484, 980, 1702, 2734, 6025]"
 DATE,april,5,"[581, 1245, 1476, 2116, 6026]"
+DATE,october,5,"[484, 980, 1702, 2734, 6025]"
+DATE,2 months ago,5,"[763, 1081, 2289, 3042, 4816]"
+DATE,august,5,"[1130, 1919, 1954, 2314, 3345]"
+DATE,9 months ago,5,"[414, 778, 2290, 3056, 4968]"
+DATE,november,5,"[290, 766, 934, 6174, 6458]"
+DATE,10 months ago,4,"[996, 2032, 3551, 6329]"
+CARDINAL,2,4,"[1258, 2030, 3915, 5135]"
+MONEY,five purchases ago,4,"[415, 868, 2315, 6134]"
 MONEY,9 purchases ago,4,"[494, 865, 3061, 4319]"
 MONEY,6 purchases,4,"[291, 1486, 2802, 6172]"
-MONEY,five purchases ago,4,"[415, 868, 2315, 6134]"
-recipient_person,daughter,4,"[1187, 1597, 1669, 5773]"
-CARDINAL,2,4,"[1258, 2030, 3915, 5135]"
 recipient_person,wife,4,"[2422, 4414, 4985, 5487]"
+recipient_person,daughter,4,"[1187, 1597, 1669, 5773]"
 DATE,6 months ago,4,"[4817, 6212, 6322, 6393]"
-DATE,10 months ago,4,"[996, 2032, 3551, 6329]"
-DATE,ten months ago,3,"[2663, 3207, 5139]"
 CARDINAL,1,3,"[3203, 3555, 5003]"
-DATE,nine months ago,3,"[1132, 1248, 4170]"
-MONEY,10 purchases ago,3,"[468, 4048, 4313]"
-MONEY,4 purchases,3,"[167, 3818, 5104]"
 DATE,two purchases ago,3,"[48, 2082, 4433]"
+DATE,ten months ago,3,"[2663, 3207, 5139]"
+MONEY,4 purchases,3,"[167, 3818, 5104]"
 DATE,1 months ago,3,"[950, 4534, 4844]"
-DATE,11 months ago,2,"[580, 1060]"
-DATE,january,2,"[168, 2656]"
-DATE,eight months ago,2,"[85, 2461]"
-MONEY,nine purchases ago,2,"[765, 6396]"
-CARDINAL,11,2,"[1352, 4439]"
+MONEY,10 purchases ago,3,"[468, 4048, 4313]"
+DATE,nine months ago,3,"[1132, 1248, 4170]"
 recipient_person,mom,2,"[452, 2136]"
+CARDINAL,11,2,"[1352, 4439]"
+MONEY,nine purchases ago,2,"[765, 6396]"
+DATE,january,2,"[168, 2656]"
+DATE,11 months ago,2,"[580, 1060]"
+DATE,eight months ago,2,"[85, 2461]"
+payment_method,google pay,2,"[302, 1199]"
 status_check,check status,2,"[772, 773]"
 MONEY,3 purchases ago,1,[480]
-ORG,complaint,1,[813]
 DATE,7 months ago,1,[493]
+ORG,complaint,1,[813]
+DATE,ten purchases ago,1,[1866]
 DATE,two months ago,1,[4441]
 MONEY,1 purchases ago,1,[6077]
-purchase_help,cannot pay,1,[2549]
-DATE,ten purchases ago,1,[1866]
 status_check,check order,1,[770]
+purchase_help,cannot pay,1,[2549]
 status_check,check refund,1,[771]
-support_channel,talk to human,1,[5665]
 invoice_reference,last invoice,1,[1238]
+support_channel,talk to human,1,[5665]
+payment_method,card,1,[1198]
 order_reference,cancel order,1,[726]
 order_reference,track order,1,[5721]

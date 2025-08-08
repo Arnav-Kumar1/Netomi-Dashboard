@@ -106,8 +106,6 @@ customer service working hours,customer service working hours,18,Delivery ETA,Hu
 delete account,delete account,8,Account Deletion,Account Deletion
 deleting account,deleting account,8,Account Deletion,Account Deletion
 delivery period,delivery period,5,Delivery Options/Modes,Delivery Options/Modes
-do you accept card?,do you accept card?,2,Payment Options/Issues,Payment Options/Issues
-do you accept google pay?,do you accept google pay?,2,Payment Options/Issues,Payment Options/Issues
 do you have a mail to contact customer service?,do you have a mail to contact customer service?,11,Leave Feedback / Review,Leave Feedback / Review
 do you have a number to contact customer service?,do you have a number to contact customer service?,11,Leave Feedback / Review,Leave Feedback / Review
 do you have a section to submit a review for your company?,do you have a section to submit a review for your company?,11,Leave Feedback / Review,Leave Feedback / Review
@@ -137,6 +135,7 @@ give me information about a password recovery,give me information about a passwo
 give me information about cancelling orders,give me information about cancelling orders,6,Order Cancellation,Order Cancellation
 give me information about forgotten passwords,give me information about forgotten passwords,3,Account Recovery,Account Recovery
 give me information about the cancellation of an account,give me information about the cancellation of an account,8,Account Deletion,Account Deletion
+give me information about the pin code recovery,give me information about the pin code recovery,3,Account Recovery,Account Recovery
 give me information about the termination of a user account,give me information about the termination of a user account,8,Account Deletion,Account Deletion
 give me infornation about the lost pin,give me information about the lost pin,3,Account Recovery,Account Recovery
 have a question about my forgotten pass,have a question about my forgotten pass,3,Account Recovery,Account Recovery
@@ -259,6 +258,7 @@ how do i lodge a consumer reclamation against your company?,how do i lodge a con
 how do i open an account?,how do i open an account?,19,Account Creation / Switching,Account Creation / Switching
 how do i open an new user account,how do i open an new user account,19,Account Creation / Switching,Account Creation / Switching
 how do i recover my password?,how do i recover my password?,3,Account Recovery,Account Recovery
+how do i recover my user account pin code,how do i recover my user account pin code,3,Account Recovery,Account Recovery
 how do i remove several items?,how do i remove several items?,16,Modify Existing Order,Modify Existing Order
 how do i see th accepted payment methods,how do i see th accepted payment methods,2,Payment Options/Issues,Payment Options/Issues
 how do i see the cancellation charge,how do i see the cancellation charge,6,Order Cancellation,Order Cancellation
@@ -356,6 +356,7 @@ i can't pay for my last order,i can't pay for my last order,6,Order Cancellation
 i can't pay for the last order i have made,i can't pay for the last order i have made,6,Order Cancellation,Order Cancellation
 i can't pay for the order,i can't pay for the order,16,Modify Existing Order,Modify Existing Order
 i can't pay for the order i have made,i can't pay for the order i have made,16,Modify Existing Order,Modify Existing Order
+i can't recover my accpunt pin code,i can't recover my account pin code,3,Account Recovery,Account Recovery
 i can't reest my user account key,i can't reest my user account key,3,Account Recovery,Account Recovery
 i can't retrieve my account pin,i can't retrieve my account pin,3,Account Recovery,Account Recovery
 i can't switch to a new account,i can't switch to a new account,19,Account Creation / Switching,Account Creation / Switching
@@ -501,6 +502,7 @@ i have to remove several items,i have to remove several items,16,Modify Existing
 i have to remove several items from an order,i have to remove several items from an order,16,Modify Existing Order,Modify Existing Order
 i have to reset my online account key,i have to reset my online account key,3,Account Recovery,Account Recovery
 i have to restore my online account accdss key,i have to restore my online account access key,3,Account Recovery,Account Recovery
+i have to retridve my pin code,i have to retrieve my pin code,3,Account Recovery,Account Recovery
 i have to see the payment options,i have to see the payment options,2,Payment Options/Issues,Payment Options/Issues
 i have to speak to a person,i have to speak to a person,14,Human Agent Request,Human Agent Request
 i have to speak with someone,i have to speak with someone,14,Human Agent Request,Human Agent Request
@@ -589,6 +591,7 @@ i try to open a different user account,i try to open a different user account,19
 i try to recover my account access key,i try to recover my account access key,3,Account Recovery,Account Recovery
 i try to remove my account,i try to remove my account,8,Account Deletion,Account Deletion
 i try to remove something from an order,i try to remove something from an order,16,Modify Existing Order,Modify Existing Order
+i try to reset my online account pin code,i try to reset my online account pin code,3,Account Recovery,Account Recovery
 i try to see the early termination penalties,i try to see the early termination penalties,6,Order Cancellation,Order Cancellation
 i try to see ther cancellation penalties,i try to see there cancellation penalties,6,Order Cancellation,Order Cancellation
 i try to switch to a new user account,i try to switch to a new user account,19,Account Creation / Switching,Account Creation / Switching
@@ -941,6 +944,7 @@ tell me about forgotten passwords,tell me about forgotten passwords,3,Account Re
 tell me about order cancelations,tell me about order cancellations,6,Order Cancellation,Order Cancellation
 tell me about the delivery period,tell me about the delivery period,5,Delivery Options/Modes,Delivery Options/Modes
 tell me about the delivery periods,tell me about the delivery periods,5,Delivery Options/Modes,Delivery Options/Modes
+tell me about the olst pin code,tell me about the list pin code,3,Account Recovery,Account Recovery
 tell me about the options for delivery,tell me about the options for delivery,5,Delivery Options/Modes,Delivery Options/Modes
 tell me at what time customer service available is,tell me at what time customer service available is,18,Delivery ETA,Human Agent Request
 tell me at what time i can contact customer service,tell me at what time i can contact customer service,18,Delivery ETA,Human Agent Request
