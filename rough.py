@@ -1,64 +1,64 @@
 import pandas as pd
 from collections import defaultdict
 
-def analyze_bucket_keywords(df, custom_buckets):
+def analyze_candidate_phrases_for_buckets(df, existing_buckets):
     """
-    For each keyword in the custom buckets, count number of queries it appears in,
-    and map in how many unique topics the keyword appears.
+    Find frequent words and two-word phrases in queries not in existing buckets,
+    to suggest candidates for new entity buckets.
     """
-    keyword_topic_counts = defaultdict(lambda: defaultdict(int))
-    keyword_query_counts = defaultdict(int)
-    
-    for _, row in df.iterrows():
-        query = str(row['cleaned_query']).lower()
-        topic = row['topic_label_final']
-        for bucket, keywords in custom_buckets.items():
-            for kw in keywords:
-                # Use "in" substring checking; can be replaced by stricter matching if needed
-                if kw in query:
-                    keyword_topic_counts[kw][topic] += 1
-                    keyword_query_counts[kw] += 1
-    
-    data = []
-    for kw, topics in keyword_topic_counts.items():
-        total_count = keyword_query_counts[kw]
-        unique_topic_count = len(topics)
-        data.append({
-            'keyword': kw,
-            'total_count': total_count,
-            'unique_topic_count': unique_topic_count,
-            'topics': dict(topics)
-        })
-    
-    df_kw_summary = pd.DataFrame(data)
-    
-    # Sort by keywords that appear in most topics first and highest total_count descending
-    df_kw_summary = df_kw_summary.sort_values(by=['unique_topic_count', 'total_count'], ascending=[False, False])
-    
-    return df_kw_summary
+    existing_keywords = set()
+    for keywords in existing_buckets.values():
+        for kw in keywords:
+            existing_keywords.add(kw.lower())
 
-# ----- Usage Example -----
-if __name__ == "__main__":
-    # Load your data (adjust file path as needed)
-    df = pd.read_csv("clustered_labelled_queries_final.csv")
+    word_counts = defaultdict(int)
+    phrase_counts = defaultdict(int)
 
-    # Your existing custom buckets
-    CUSTOM_BUCKETS = {
-        "payment_method": ["credit card", "debit card", "paypal", "net banking", "upi", "wallet", "cash", "cod", "bank transfer"],
-        "delivery_option": ["standard delivery", "express delivery", "same day", "next day", "pickup", "home delivery", "delivery time", "estimated delivery", "eta", "shipping", "shipping method"],
-        "product": ["item", "product", "subscription", "order", "account", "profile", "invoice", "package", "plan"],
-        "support_term": ["agent", "customer support", "representative", "live chat", "assistant", "chatbot", "human agent", "talk to human", "talk with someone"],
-        "refund_term": ["refund", "refunded", "return", "policy", "chargeback", "cancellation", "cancellation policy", "cancel order", "cancelled", "fee", "penalty"],
-        "account_action": ["reset", "register", "sign up", "login", "sign in", "verify", "delete account", "edit profile", "update info", "recover", "forgot pin", "forgot password", "switch user"],
-        "tracking_info": ["track", "tracking", "order status", "shipment", "delivered", "not shipped", "delayed", "dispatched"],
-        "feedback_complaint": ["feedback", "review", "complaint", "claim", "escalate", "issue", "problem", "report"],
-        "newsletter": ["newsletter", "unsubscribe", "subscribe", "mailing list", "email updates"],
-        "purchase_help": ["buy", "purchase", "need help purchasing", "payment failed", "cannot pay", "transaction error"]
-    }
+    for q in df['cleaned_query'].dropna():
+        query = q.lower()
+        words = query.split()
 
-    df_kw = analyze_bucket_keywords(df, CUSTOM_BUCKETS)
+        for word in words:
+            if word not in existing_keywords:
+                word_counts[word] += 1
 
-    # Save output for inspection
-    df_kw.to_csv("keyword_topic_analysis.csv", index=False)
-    print("🔎 Keyword-topic analysis completed and saved to 'keyword_topic_analysis.csv'")
-    print(df_kw.head(30))  # show top 30 by ambiguity and frequency
+        bigrams = [" ".join(words[i:i+2]) for i in range(len(words)-1)]
+        for bg in bigrams:
+            if bg not in existing_keywords:
+                phrase_counts[bg] += 1
+
+    sorted_words = sorted(word_counts.items(), key=lambda x: x[1], reverse=True)[:30]
+    sorted_phrases = sorted(phrase_counts.items(), key=lambda x: x[1], reverse=True)[:30]
+
+    return sorted_words, sorted_phrases
+
+# Load your dataframe and set your current custom buckets dictionary
+df = pd.read_csv("clustered_labelled_queries_final.csv")
+
+REFINED_CUSTOM_BUCKETS = {
+    "payment_method": ["credit card", "debit card", "paypal", "net banking", "upi", "wallet", "cash", "cod", "bank transfer"],
+    "delivery_option": ["standard delivery", "express delivery", "pickup", "home delivery", "delivery time", "estimated delivery", "eta", "shipping method"],
+    "delivery_address": ["shipping address", "delivery address", "new address", "change address", "set address"],
+    "order_reference": ["cancel order", "order status", "track order", "modify order", "order number"],
+    "invoice_reference": ["invoice", "invoice number", "last invoice", "check invoice"],
+    "account_action": ["account deletion", "account recovery", "account creation", "edit profile", "reset password", "register", "sign up"],
+    "refund_request": ["refund request", "refund policy", "cancellation policy", "cancelled", "cancellation fee"],
+    "support_request": ["help me", "need help", "assistance", "can you help", "help to", "you help"],
+    "status_check": ["check", "to check", "need to check", "check status", "check refund", "check order"],
+    "recipient_person": ["my mom", "my wife", "my dad", "my daughter"],
+    "support_channel": ["agent", "customer support", "live chat", "human agent", "talk to human"],
+    "newsletter_action": ["newsletter", "subscribe", "unsubscribe", "mailing list"],
+    "purchase_help": ["buy", "purchase", "payment failed", "transaction error", "cannot pay"],
+    "instruction_request": ["how to", "know how", "can i", "could you", "know what"],
+    "general_complaint": ["problem", "issue", "report", "complaint", "feedback", "claim", "escalate"],
+}
+
+words_not_covered, phrases_not_covered = analyze_candidate_phrases_for_buckets(df, CURRENT_CUSTOM_BUCKETS)
+
+print("\nTop 30 frequent words outside current buckets:")
+for word, count in words_not_covered:
+    print(f"{word}: {count}")
+
+print("\nTop 30 frequent two-word phrases outside current buckets:")
+for phrase, count in phrases_not_covered:
+    print(f"{phrase}: {count}")
