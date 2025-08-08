@@ -1,64 +1,39 @@
 import pandas as pd
-from collections import defaultdict
+from collections import Counter
 
-def analyze_candidate_phrases_for_buckets(df, existing_buckets):
-    """
-    Find frequent words and two-word phrases in queries not in existing buckets,
-    to suggest candidates for new entity buckets.
-    """
-    existing_keywords = set()
-    for keywords in existing_buckets.values():
-        for kw in keywords:
-            existing_keywords.add(kw.lower())
-
-    word_counts = defaultdict(int)
-    phrase_counts = defaultdict(int)
-
-    for q in df['cleaned_query'].dropna():
-        query = q.lower()
-        words = query.split()
-
-        for word in words:
-            if word not in existing_keywords:
-                word_counts[word] += 1
-
-        bigrams = [" ".join(words[i:i+2]) for i in range(len(words)-1)]
-        for bg in bigrams:
-            if bg not in existing_keywords:
-                phrase_counts[bg] += 1
-
-    sorted_words = sorted(word_counts.items(), key=lambda x: x[1], reverse=True)[:30]
-    sorted_phrases = sorted(phrase_counts.items(), key=lambda x: x[1], reverse=True)[:30]
-
-    return sorted_words, sorted_phrases
-
-# Load your dataframe and set your current custom buckets dictionary
+# Load your labelled data and entity file
 df = pd.read_csv("clustered_labelled_queries_final.csv")
+entity_df = pd.read_csv("identified_entities.csv")
 
-REFINED_CUSTOM_BUCKETS = {
-    "payment_method": ["credit card", "debit card", "paypal", "net banking", "upi", "wallet", "cash", "cod", "bank transfer"],
-    "delivery_option": ["standard delivery", "express delivery", "pickup", "home delivery", "delivery time", "estimated delivery", "eta", "shipping method"],
-    "delivery_address": ["shipping address", "delivery address", "new address", "change address", "set address"],
-    "order_reference": ["cancel order", "order status", "track order", "modify order", "order number"],
-    "invoice_reference": ["invoice", "invoice number", "last invoice", "check invoice"],
-    "account_action": ["account deletion", "account recovery", "account creation", "edit profile", "reset password", "register", "sign up"],
-    "refund_request": ["refund request", "refund policy", "cancellation policy", "cancelled", "cancellation fee"],
-    "support_request": ["help me", "need help", "assistance", "can you help", "help to", "you help"],
-    "status_check": ["check", "to check", "need to check", "check status", "check refund", "check order"],
-    "recipient_person": ["my mom", "my wife", "my dad", "my daughter"],
-    "support_channel": ["agent", "customer support", "live chat", "human agent", "talk to human"],
-    "newsletter_action": ["newsletter", "subscribe", "unsubscribe", "mailing list"],
-    "purchase_help": ["buy", "purchase", "payment failed", "transaction error", "cannot pay"],
-    "instruction_request": ["how to", "know how", "can i", "could you", "know what"],
-    "general_complaint": ["problem", "issue", "report", "complaint", "feedback", "claim", "escalate"],
-}
+# Extract sets of queries with entities from entity_df
+import ast
+all_entity_rows = set()
+for rows_str in entity_df['Query Rows'].dropna():
+    rows = ast.literal_eval(rows_str)
+    all_entity_rows.update([r - 2 for r in rows])  # adjust indexing as per your data
 
-words_not_covered, phrases_not_covered = analyze_candidate_phrases_for_buckets(df, CURRENT_CUSTOM_BUCKETS)
+# Find queries with no entities based on df index
+no_entity_df = df[~df.index.isin(all_entity_rows)]
+no_entity_queries = no_entity_df['cleaned_query'].dropna().tolist()
 
-print("\nTop 30 frequent words outside current buckets:")
-for word, count in words_not_covered:
-    print(f"{word}: {count}")
+def extract_ngrams(queries, n=2):
+    """Extract n-grams from list of queries."""
+    ngram_counter = Counter()
+    for q in queries:
+        words = q.lower().split()
+        for i in range(len(words)-n+1):
+            ngram = " ".join(words[i:i+n])
+            ngram_counter[ngram] += 1
+    return ngram_counter
 
-print("\nTop 30 frequent two-word phrases outside current buckets:")
-for phrase, count in phrases_not_covered:
-    print(f"{phrase}: {count}")
+# Get common single words and bigrams in no-entity queries
+single_words = extract_ngrams(no_entity_queries, n=1)
+bigrams = extract_ngrams(no_entity_queries, n=2)
+
+print("Top 30 single words in no-entity queries:")
+for w, c in single_words.most_common(30):
+    print(f"{w}: {c}")
+
+print("\nTop 30 two-word phrases in no-entity queries:")
+for p, c in bigrams.most_common(30):
+    print(f"{p}: {c}")
