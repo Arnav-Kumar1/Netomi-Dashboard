@@ -1,0 +1,46 @@
+keyword,total_count,unique_topic_count,topics
+problem,96,8,"{'Registration & Sign-Up Issues': 21, 'Account Deletion': 8, 'Account Recovery': 12, 'Change Shipping Address': 8, 'Modify Existing Order': 19, 'Order Cancellation': 23, 'Delivery Options/Modes': 4, 'Account Creation / Switching': 1}"
+account,725,6,"{'Account Creation / Switching': 314, 'Account Deletion': 230, 'Edit Account Details': 107, 'Account Recovery': 62, 'Order Cancellation': 4, 'Registration & Sign-Up Issues': 8}"
+order,667,4,"{'Modify Existing Order': 195, 'Order Cancellation': 223, 'Order Status / Tracking': 248, 'Delivery ETA': 1}"
+refund,605,3,"{'Refund status/Requests & Policies': 601, 'Leave Feedback / Review': 3, 'Order Cancellation': 1}"
+issue,423,3,"{'Payment Options/Issues': 255, 'Registration & Sign-Up Issues': 137, 'Change Shipping Address': 31}"
+item,355,3,"{'Modify Existing Order': 95, 'Purchase Assistance': 178, 'Delivery ETA': 82}"
+eta,83,3,"{'User profile Changes': 7, 'Edit Account Details': 30, 'Order Status / Tracking': 46}"
+sign up,37,3,"{'Account Creation / Switching': 4, 'Newsletter Subscription': 20, 'Registration & Sign-Up Issues': 13}"
+report,292,2,"{'Payment Options/Issues': 174, 'Registration & Sign-Up Issues': 118}"
+fee,243,2,"{'Order Cancellation': 142, 'Leave Feedback / Review': 101}"
+track,194,2,"{'Order Status / Tracking': 155, 'Refund status/Requests & Policies': 39}"
+purchase,153,2,"{'Invoice Retrieval': 119, 'Purchase Assistance': 34}"
+cancellation,151,2,"{'Order Cancellation': 149, 'Account Deletion': 2}"
+profile,90,2,"{'User profile Changes': 81, 'Edit Account Details': 9}"
+register,53,2,"{'Registration & Sign-Up Issues': 51, 'Account Creation / Switching': 2}"
+customer support,36,2,"{'Leave Feedback / Review': 22, 'Human Agent Request': 14}"
+tracking,29,2,"{'Order Status / Tracking': 23, 'Refund status/Requests & Policies': 6}"
+product,3,2,"{'Modify Existing Order': 1, 'Leave Feedback / Review': 2}"
+invoice,526,1,{'Invoice Retrieval': 526}
+shipping,410,1,{'Change Shipping Address': 410}
+newsletter,227,1,{'Newsletter Subscription': 227}
+buy,188,1,{'Purchase Assistance': 188}
+complaint,152,1,{'Leave Feedback / Review': 152}
+review,147,1,{'Leave Feedback / Review': 147}
+agent,145,1,{'Human Agent Request': 145}
+recover,101,1,{'Account Recovery': 101}
+feedback,101,1,{'Leave Feedback / Review': 101}
+policy,94,1,{'Refund status/Requests & Policies': 94}
+subscription,91,1,{'Newsletter Subscription': 91}
+subscribe,72,1,{'Newsletter Subscription': 72}
+claim,57,1,{'Leave Feedback / Review': 57}
+switch user,36,1,{'Account Creation / Switching': 36}
+unsubscribe,31,1,{'Newsletter Subscription': 31}
+reset,31,1,{'Account Recovery': 31}
+human agent,24,1,{'Human Agent Request': 24}
+penalty,23,1,{'Order Cancellation': 23}
+cod,20,1,{'Account Recovery': 20}
+refunded,17,1,{'Refund status/Requests & Policies': 17}
+assistant,11,1,{'Human Agent Request': 11}
+talk with someone,2,1,{'Human Agent Request': 2}
+cancel order,1,1,{'Order Cancellation': 1}
+delete account,1,1,{'Account Deletion': 1}
+cannot pay,1,1,{'Order Cancellation': 1}
+talk to human,1,1,{'Human Agent Request': 1}
+update info,1,1,{'User profile Changes': 1}

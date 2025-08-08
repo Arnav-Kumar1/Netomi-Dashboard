@@ -2,6 +2,8 @@ import streamlit as st
 import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
+import ast
+from itertools import chain
 
 # Set Streamlit page config
 st.set_page_config(
@@ -26,11 +28,26 @@ df, entity_df = load_data()
 st.sidebar.header("Filters")
 
 # KPI Section
-st.markdown("## 🔑 Key Insights")
+st.markdown("## 🔑 Key Performance Indicators")
+st.markdown("Below are the most critical metrics helping us understand customer support trends:")
+
 col1, col2, col3 = st.columns(3)
-col1.metric("Total Queries", len(df))
-col2.metric("Unique Topics", df['topic_label_final'].nunique())
-col3.metric("Queries w/ Entities", len(entity_df['Query Rows'].explode().unique()))
+col1.metric("📦 Total Queries", len(df))
+col2.metric("🧩 Unique Topics", df['topic_label_final'].nunique())
+
+# True Queries With Entities (based on Query Rows union, excluding ignored types)
+valid_entity_df = entity_df[~entity_df['Entity Type'].isin(['CARDINAL', 'ORG', 'TIME'])]
+all_rows = valid_entity_df['Query Rows'].dropna().apply(ast.literal_eval)
+all_indices = set(chain.from_iterable(all_rows))
+num_queries_with_entities = len(all_indices)
+col3.metric("🧾 Queries With Entities", num_queries_with_entities)
+
+# Optional: Total Mentions as a fourth KPI
+col4, _, _ = st.columns(3)
+total_entity_mentions = valid_entity_df['Frequency'].sum()
+col4.metric("🔢 Total Entity Mentions", total_entity_mentions)
+
+st.markdown("---")
 
 # Topic Counts Bar Chart
 st.markdown("## 📈 Topic Frequency Distribution")
