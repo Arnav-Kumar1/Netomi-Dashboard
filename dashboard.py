@@ -90,6 +90,24 @@ plt.style.use('default')
 
 st.markdown("---")
 
+
+# Sample Queries by Topic
+st.markdown("## 📝 Sample Queries by Topic")
+sample_topic = st.selectbox("Select Topic for Sample Queries", sorted(df['topic_label_final'].unique()), key='sample_query_select')
+
+group = df[df['topic_label_final'] == sample_topic]
+st.markdown(f"**{sample_topic}**")
+
+examples = group['raw_query'].dropna().sample(min(len(group), 5), random_state=42).tolist()
+for q in examples:
+    st.markdown(f"- {q}")
+
+st.markdown("---")
+
+
+
+
+
 # Pareto Chart
 st.markdown("## 📉 Pareto Analysis of Topic Frequency")
 st.markdown("This Pareto chart shows cumulative contribution of topics to the total query volume, helping focus on the most impactful topics.")
@@ -128,6 +146,10 @@ plt.style.use('default')
 
 st.markdown("---")
 
+
+
+
+
 # Entity Type Distribution Bar Chart
 st.markdown("## 🧠 Entity Type Distribution")
 st.markdown("""
@@ -135,7 +157,7 @@ This bar chart displays total frequency of each entity type extracted from queri
 Note: A single query may mention multiple instances of the same entity type, so total entity mentions can exceed total queries.
 """)
 
-exclude_types = {"CARDINAL", "ORG", "TIME"}
+exclude_types = {"CARDINAL", "ORG", "TIME", "MONEY","DATE"}
 entity_df_filtered = entity_df[~entity_df["Entity Type"].isin(exclude_types)]
 type_freq = entity_df_filtered.groupby("Entity Type")["Frequency"].sum().sort_values(ascending=False)
 
@@ -161,23 +183,13 @@ plt.style.use('default')
 
 st.markdown("---")
 
-# Sample Queries by Topic
-st.markdown("## 📝 Sample Queries by Topic")
-sample_topic = st.selectbox("Select Topic for Sample Queries", sorted(df['topic_label_final'].unique()), key='sample_query_select')
 
-group = df[df['topic_label_final'] == sample_topic]
-st.markdown(f"**{sample_topic}**")
-
-examples = group['raw_query'].dropna().sample(min(len(group), 5), random_state=42).tolist()
-for q in examples:
-    st.markdown(f"- {q}")
-
-st.markdown("---")
 
 # Filter queries by Entity Type and Entity Value
 st.markdown("## 🔍 Filter Queries by Entity Type and Entity Value")
 
-entity_types = sorted(entity_df['Entity Type'].unique())
+# Filter entity types to exclude unwanted ones
+entity_types = sorted([et for et in entity_df['Entity Type'].unique() if et not in exclude_types])
 selected_entity_type = st.selectbox("Select Entity Type", entity_types, key='entity_type_select')
 
 filtered_entities = entity_df[entity_df['Entity Type'] == selected_entity_type]
