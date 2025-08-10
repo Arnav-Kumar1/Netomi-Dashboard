@@ -175,7 +175,7 @@ for i, (etype, freq) in enumerate(type_freq.items()):
 
 ax.set_ylabel("Total Frequency", color='white')
 ax.set_xlabel("Entity Type", color='white')
-ax.set_title("Entity Type Distribution (Excluding CARDINAL, ORG, TIME)", color='white')
+ax.set_title("Entity Type Distribution", color='white')
 
 plt.tight_layout()
 st.pyplot(fig3)
