@@ -1,39 +1,54 @@
+# step_2_topic_discovery.ipynb (consultant-grade modular pipeline)
+
 import pandas as pd
-from collections import Counter
 
-# Load your labelled data and entity file
-df = pd.read_csv("clustered_labelled_queries_final.csv")
-entity_df = pd.read_csv("identified_entities.csv")
+from sklearn.cluster import DBSCAN
+from sentence_transformers import SentenceTransformer
+import matplotlib.pyplot as plt
+import seaborn as sns
+import warnings
+warnings.filterwarnings("ignore")
 
-# Extract sets of queries with entities from entity_df
-import ast
-all_entity_rows = set()
-for rows_str in entity_df['Query Rows'].dropna():
-    rows = ast.literal_eval(rows_str)
-    all_entity_rows.update([r - 2 for r in rows])  # adjust indexing as per your data
+# -------------------- 1. Load Cleaned Data --------------------
+def load_cleaned_queries(filepath):
+    df = pd.read_csv(filepath)
+    if 'cleaned_query' not in df.columns:
+        raise ValueError("Missing 'cleaned_query' column in uploaded file.")
+    return df
+# -------------------- 2. Generate Sentence Embeddings --------------------
+def embed_queries(queries):
+    # model = SentenceTransformer("all-MiniLM-L6-v2")
+    model = SentenceTransformer("BAAI/bge-small-en-v1.5")
+    embeddings = model.encode(queries.tolist(), show_progress_bar=True)
+    return embeddings
 
-# Find queries with no entities based on df index
-no_entity_df = df[~df.index.isin(all_entity_rows)]
-no_entity_queries = no_entity_df['cleaned_query'].dropna().tolist()
 
-def extract_ngrams(queries, n=2):
-    """Extract n-grams from list of queries."""
-    ngram_counter = Counter()
-    for q in queries:
-        words = q.lower().split()
-        for i in range(len(words)-n+1):
-            ngram = " ".join(words[i:i+n])
-            ngram_counter[ngram] += 1
-    return ngram_counter
+def cluster_queries_dbscan(embeddings, eps=0.5, min_samples=5):
+    dbscan = DBSCAN(eps=eps, min_samples=min_samples, metric='euclidean')
+    labels = dbscan.fit_predict(embeddings)
+    return labels
 
-# Get common single words and bigrams in no-entity queries
-single_words = extract_ngrams(no_entity_queries, n=1)
-bigrams = extract_ngrams(no_entity_queries, n=2)
 
-print("Top 30 single words in no-entity queries:")
-for w, c in single_words.most_common(30):
-    print(f"{w}: {c}")
+# -------------------- 4. Add Topics --------------------
+def assign_topics(df, labels):
+    df['topic'] = labels
+    return df
 
-print("\nTop 30 two-word phrases in no-entity queries:")
-for p, c in bigrams.most_common(30):
-    print(f"{p}: {c}")
+# -------------------- 7. Save Output --------------------
+def save_labeled_queries(df, output_path="clustered_queries_auto.csv"):
+    df.to_csv(output_path, index=False)
+    print(f"\n✅ Clustered data saved to: {output_path}")
+
+
+
+# -------------------- 8. Run Full Step 2 Pipeline --------------------
+def run_step_2_pipeline():
+    df = load_cleaned_queries("cleaned_queries.csv")
+    embeddings = embed_queries(df['cleaned_query'])
+    db = DBSCAN(eps=0.5, min_samples=5, metric='euclidean')
+    labels = db.fit_predict(embeddings)
+    df = assign_topics(df, labels)
+    save_labeled_queries(df)
+
+
+run_step_2_pipeline()
